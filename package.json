@@ -1,7 +1,7 @@
 {
   "name": "gliflow",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.3.5",
   "description": "Generates executable workflows from [gliffy](https://www.gliffy.com/) diagrams diagrams",
   "main": "src/gliffyParser.js",
   "watch": {
@@ -35,5 +35,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "license": "MIT",
+  "author": "John Collier <john.collier4@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:github1/gliflow.git"
   }
 }

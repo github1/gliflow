@@ -1,6 +1,6 @@
 # gliflow
 
-[description]
+Generates executable workflows from [gliffy](https://www.gliffy.com/) diagrams diagrams
 
 ## Installation
 
@@ -30,4 +30,4 @@ console.log(g.awaitingIO().text);
 *See the [tests](./lib/gliffyParser.test.js) for additional examples*
 
 ## License
-[license]
+[MIT](LICENSE.md)
