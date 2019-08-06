@@ -1,0 +1,45 @@
+{
+  "name": "gliflow",
+  "private": false,
+  "version": "0.0.0",
+  "description": "Generates executable workflows from [gliffy](https://www.gliffy.com/) diagrams diagrams",
+  "main": "src/gliffyParser.js",
+  "watch": {
+    "test": {
+      "patterns": [
+        "."
+      ],
+      "extensions": [
+        "gliffy",
+        "js"
+      ],
+      "quiet": true,
+      "legacyWatch": true,
+      "delay": 1000
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm-watch test",
+    "prepublishOnly": "./prepare.sh"
+  },
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "devDependencies": {
+    "jest": "^22.0.0",
+    "npm-watch": "^0.2.0"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "author": "John Collier <john.collier4@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github1/gliflow"
+  }
+}
