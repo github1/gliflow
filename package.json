@@ -1,7 +1,7 @@
 {
   "name": "gliflow",
   "private": false,
-  "version": "0.4.45",
+  "version": "0.4.46",
   "description": "Generates executable workflows from [gliffy](https://www.gliffy.com/) diagrams diagrams",
   "main": "src/gliffyParser.js",
   "watch": {
@@ -24,7 +24,9 @@
     "prepublishOnly": "./prepare.sh"
   },
   "jest": {
-    "testURL": "http://localhost"
+    "testEnvironmentOptions": {
+      "url": "http://localhost"
+    }
   },
   "devDependencies": {
     "jest": "29.5.0",
