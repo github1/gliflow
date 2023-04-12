@@ -1,7 +1,7 @@
 {
   "name": "gliflow",
   "private": false,
-  "version": "0.4.46",
+  "version": "0.4.50",
   "description": "Generates executable workflows from [gliffy](https://www.gliffy.com/) diagrams diagrams",
   "main": "src/gliffyParser.js",
   "watch": {
